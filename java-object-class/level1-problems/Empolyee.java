@@ -14,7 +14,7 @@ class Employee {
        System.out.println(this.salary);
     }
     public static void main(String[] var0) {
-       Employee var1 = new Employee("Rithik", 21, 40000.0);
+       Employee var1 = new Employee("Raunak", 21, 40000.0);
        var1.Display();
     }
  }
