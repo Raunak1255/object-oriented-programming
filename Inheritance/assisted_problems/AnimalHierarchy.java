@@ -13,8 +13,8 @@ public class AnimalHierarchy {
 
 }
 
-class Animal {
-    String name;
+class Animal {    // Defines the superclass Animal
+    String name;  // it has two attributes (name and age).
     int age;
 
     public Animal(String name, int age) {
@@ -29,12 +29,13 @@ class Animal {
 
 class Dog extends Animal {
     public Dog(String name, int age) {
+        // super(name, age) to initialize name and age for the dog.
         super(name, age);
     }
 
     @Override
     public String makeSound() {
-        return "Woof Woof";
+        return "bark bark";
 
     }
 
